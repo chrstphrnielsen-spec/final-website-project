@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scratch Page — My Hobby</title>
+    <link rel="stylesheet" href="scratch.css">
+  </head>
+  <body>
+    <div class="header"> 
+      <h1>My Scratch Page: Urban Sketching</h1>
+      <p><a href="#details">Jump to details</a> • <a href="index.html">Back to Professional Pages</a></p>
+    </div>
+
+    <div class="content">
+      <section>
+        <h2 id="overview">Overview</h2>
+        <p>I sketch urban scenes as a hobby. This page demonstrates plain HTML/CSS features required for the assignment.</p>
+        <ol>
+          <li>Tools I use:
+            <ul>
+              <li>Sketchbook</li>
+              <li>Pencil & pen</li>
+              <li>Portable watercolor set</li>
+            </ul>
+          </li>
+          <li>Favorite spots</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2 id="media">Media</h2>
+      <p>Local image (Provo BYU campus):</p>
+      <img src="images/sketch.jpg" alt="BYU Provo campus photograph" class="sample-img">
+      <p style="font-size:0.9rem;color:#555;margin-top:0.4rem;">Real BYU/Provo campus photograph saved locally as <strong>images/sketch.jpg</strong>.</p>
+
+        <p>An embedded YouTube video:</p>
+        <div class="video-wrap">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/M7lc1UVf-VE?rel=0&modestbranding=1" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width:100%;border-radius:6px;box-shadow:0 4px 10px rgba(0,0,0,0.12)"></iframe>
+          <p style="font-size:0.9rem;margin-top:0.5rem;color:#333;">If the video does not display, <a href="https://www.youtube.com/watch?v=M7lc1UVf-VE" target="_blank" rel="noopener">open it on YouTube</a>.</p>
+        </div>
+      </section>
+
+      <section id="details">
+        <h2>Details and Tableau</h2>
+        <p>This site embeds an interactive Tableau visualization below.</p>
+        <div class="tableau-wrap">
+          <iframe src="https://public.tableau.com/views/RegionalSampleWorkbook/Storms?:showVizHome=no&:embed=true" width="800" height="600"></iframe>
+        </div>
+        <p><a href="app.html">Open the small web app (number guessing)</a></p>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#details">Details</a></li>
+      </ul>
+    </aside>
+
+    <footer class="page-footer">
+      <p>Made for Final Web Dev Project — resume also on the professional site.</p>
+    </footer>
+  </body>
+</html>
